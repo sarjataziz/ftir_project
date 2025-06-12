@@ -1,11 +1,11 @@
 # FTIR Compound Classification System
 
-This project for chemical compound classification using FTIR (Fourier Transform Infrared) spectroscopy. 
+This project involves the classification of chemical compounds using FTIR (Fourier Transform Infrared) spectroscopy. 
 ## Overview
 
 The solution combines:
 
-* ✨ **Random Forest + XGBoost Ensemble** (for explainable predictions)
+* ✨ **Random Forest + XGBoost and Ensemble** (for explainable predictions)
 * 🧐 **CNN + BiLSTM + Attention Deep Learning** model (for sequential pattern learning)
 
 It supports complete preprocessing, training, model optimization, evaluation, and compound prediction from raw FTIR spectra.
@@ -80,10 +80,10 @@ python scripts/predict.py
 
 ## Input Format
 
-CSV input include:
+CSV input includes:
 
 ```
-wavenumbers,transmittance
+wavenumbers, transmittance
 400.0,2.13
 402.0,2.22
 ...
