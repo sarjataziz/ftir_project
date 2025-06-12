@@ -1,6 +1,7 @@
 # FTIR Compound Classification System
 
-This project involves the classification of chemical compounds using FTIR (Fourier Transform Infrared) spectroscopy. 
+This project is for classifying chemical compounds using Fourier Transform Infrared (FTIR) spectroscopy.
+
 ## Overview
 
 The solution combines:
@@ -43,6 +44,16 @@ ftir_project/
 ---
 
 ## Setup Instructions
+
+### 📦 Dependencies
+
+All dependencies are listed in `requirements.txt`. Install them using:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
 
 ### 1. Environment Setup
 
