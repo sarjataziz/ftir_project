@@ -1,0 +1,30 @@
+# Ignore model artifacts
+/models/*.pkl
+/models/*.h5
+
+# Ignore intermediate files
+/save_point/*.npy
+/save_point/*.pkl
+/save_point/*.json
+
+# Ignore data exports
+/data/*.csv
+/data/*.xlsx
+
+# Ignore checkpoints/tuner logs
+tuner_dir/
+*.checkpoint
+*.log
+*.tmp
+
+# Ignore Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment files
+.env
+.venv/
+venv/
+*.egg-info/
