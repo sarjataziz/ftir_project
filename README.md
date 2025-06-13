@@ -1,6 +1,6 @@
 # FTIR Compound Classification System
 
-This project is for classifying chemical compounds using Fourier Transform Infrared (FTIR) spectroscopy.
+This project for chemical compound classification using FTIR (Fourier Transform Infrared) spectroscopy. 
 
 ## Overview
 
@@ -45,16 +45,6 @@ ftir_project/
 
 ## Setup Instructions
 
-### 📦 Dependencies
-
-All dependencies are listed in `requirements.txt`. Install them using:
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
 ### 1. Environment Setup
 
 ```bash
@@ -91,16 +81,16 @@ python scripts/predict.py
 
 ## Input Format
 
-CSV input includes:
+CSV input should include:
 
 ```
-wavenumbers, transmittance
+wavenumbers,transmittance
 400.0,2.13
 402.0,2.22
 ...
 ```
 
-The script will automatically convert between `transmittance` and `absorbance` if only one is provided.
+Or optionally provide `absorbance`. The script will auto-convert.
 
 ---
 
@@ -121,7 +111,4 @@ The script will automatically convert between `transmittance` and `absorbance` i
 * ✅ Preprocessing for both ML and DL
 * ✅ Custom attention layer for interpretability
 * ✅ Auto-handling of real-world FTIR spectral inputs
-* ✅ Accepts both `transmittance` and `absorbance` columns
-
----
 
